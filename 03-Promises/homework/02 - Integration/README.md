@@ -30,7 +30,7 @@ Instala la librería **`axios`**. Luego dirígete a la carpeta **controllers** y
 
 1. Crea y exporta una función llamada **`getCharById`**. Esta recibirá dos parámetros: **res** y **id**.
 
-2. Dentro de esta función deberás realizar una petición a la API **`https://rickandmortyapi.com/api/character/:id`** de Rick & Morty. Utiliza promesas y no olvides que el **id** que utilices debe ser el que recibes por parámetro.
+2. Dentro de esta función deberás realizar una petición a la API **``https://rym2.up.railway.app/api/character/${id}?key={tuApiKey}`** de Rick & Morty. Utiliza promesas y no olvides que el **id** que utilices debe ser el que recibes por parámetro.
 
 > **[NOTA]:** tendrás que importar **`axios`**.
 

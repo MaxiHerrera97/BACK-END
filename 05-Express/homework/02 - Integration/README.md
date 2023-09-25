@@ -57,7 +57,7 @@ server.listen(PORT, () => {
 
 En este ejercicio construiremos la nueva versión de este controlador para que nos sirva con **express**. Dirígete al archivo **`getCharById.js`** y elimina todo el contenido que hay dentro de él.
 
-1. Crea una constante llamada **`URL`** y guarda lo siguiente: "**https://rickandmortyapi.com/api/character/**".
+1. Crea una constante llamada **`URL`** y guarda lo siguiente: "**`https://rym2.up.railway.app/api/character/${id}?key={tuApiKey}**".
 
 2. Crea una función con el nombre **`getCharById`** y expórtala. Recibe por parámetro a los objetos **`req`** y **`res`**.
 
